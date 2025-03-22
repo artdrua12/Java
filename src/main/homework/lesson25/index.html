@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="ncorner.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="chield">one</div>
+      <div class="chield">two</div>
+      <div class="chield">three</div>
+      <div class="chield">four</div>
+      <div class="chield">five</div>
+      <div class="chield">six</div>
+      <div class="chield">seven</div>
+      <canvas id="tshirtCanvas" width="300" height="300"></canvas>
+    </div>
+  </body>
+</html>
+<style>
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+  }
+  .chield {
+    border: 1px solid;
+    height: 70px;
+    text-align: center;
+  }
+</style>

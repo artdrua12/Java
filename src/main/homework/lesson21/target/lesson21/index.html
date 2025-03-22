@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My time project!</title>
+  </head>
+  <body>
+    <div>
+      <h1>Lesson21!</h1>
+      <h2>
+        Задача 1: Создать приложение, которое при переходе на следующие урлы
+        будет выдавать результат: /minsk - время в Минске /washington - время в
+        Вашингтоне /beijing - время в Пекине
+      </h2>
+    </div>
+    <div>
+      <button onclick="location.href='/lesson21/minsk'">Minsk</button>
+      <button onclick="location.href='/lesson21/washington'">Washington</button>
+      <button onclick="location.href='/lesson21/beijing'">Pekin</button>
+    </div>
+    <h2>
+      Задача 2: Создать сервлет который на вход принимает возраст, а в ответе
+      возвращает информацию, совершеннолетний или нет.
+    </h2>
+    <form method="post" action="/lesson21/age">
+      <label>Age: <input type="number" name="age" /> </label>
+      <button type="submit">Check age</button>
+    </form>
+  </body>
+</html>
