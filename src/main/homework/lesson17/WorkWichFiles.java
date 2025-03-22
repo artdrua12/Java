@@ -12,7 +12,7 @@ public class WorkWichFiles {
         String name = getName(listName);
 
         try {
-            File outputFile = new File("Java/src/main/homework/lesson17/" + name);
+            File outputFile = new File("src/main/homework/lesson17/" + name);
             FileOutputStream outputStream = new FileOutputStream(outputFile, false);
             for (String el : list) {
                 byte[] strToBytes = (el + "\n").getBytes();
