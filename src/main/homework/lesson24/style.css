@@ -1,0 +1,10 @@
+canvas {
+	border: 3px dashed #14acac;
+	margin-left: 10px;
+	
+}
+body {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-color: #b5a789;
+	}
